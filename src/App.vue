@@ -1,19 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<qrcodescanner/>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Qrcodescanner from './components/Qrcodescanner.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    qrcodescanner:Qrcodescanner   
   }
 }
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
